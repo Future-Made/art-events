@@ -4,6 +4,6 @@ defmodule FutureMade.Core.Events.VenueGenreAdded do
   typedstruct do
     # or String.t()
     field :venue_id, binary()
-    field :genre, binary()
+    field :genre_id, binary()
   end
 end

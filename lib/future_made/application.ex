@@ -7,6 +7,7 @@ defmodule FutureMade.Application do
 
   def start(_type, _args) do
     children = [
+      FutureMade.Core,
       # Start the Ecto repository
       FutureMade.Repo,
       # Start the Telemetry supervisor
