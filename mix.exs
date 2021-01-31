@@ -47,16 +47,13 @@ defmodule FutureMade.MixProject do
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
-
       {:typed_struct, "~> 0.2.1"},
       {:dialyxir, "~> 1.0", only: :dev, runtime: false},
       {:credo, "~> 1.3", only: [:dev, :test], runtime: false},
       {:faker, "~> 0.16", only: [:test, :dev]},
-
       {:commanded, "~> 1.2.0"},
       {:commanded_eventstore_adapter, "~> 1.2.0"},
       {:eventstore, "~> 1.2.0"}
-
     ]
   end
 
